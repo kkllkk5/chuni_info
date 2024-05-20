@@ -25,7 +25,7 @@ SECRET_KEY = 'e!t2x1y(vj81ks*+*2m18)1ef^7e3n4w9+6p+^d^u!bt&@b@kp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'chuni_info_app.apps.ChuniInfoAppConfig',
 ]
 
 MIDDLEWARE = [
